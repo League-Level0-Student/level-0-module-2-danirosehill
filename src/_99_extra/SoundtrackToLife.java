@@ -10,7 +10,7 @@ public class SoundtrackToLife {
 
 		// 1. Adjust this pop-up to find out what mood the user is in.
 		int userMood = JOptionPane.showOptionDialog(null, "What election szn mood are you in?", "Mood Quiz", 0,
-				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Calm and content", "Losing my mind", "Cautiously hopeful" }, null);
+				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Calm and content", "Losing my mind", "Cautiously optimistic" }, null);
 		
 		// 2. Their answer is stored in the userMood variable. Print it out.
 		
