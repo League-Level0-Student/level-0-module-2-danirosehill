@@ -24,7 +24,7 @@ public class NasaCountdown {
 
 	while (intnumber >= 0) {
 	Thread.sleep(1000);
-	speak(number);
+	speak(intnumber + "");
 	System.out.print(intnumber);
 	intnumber -= 1;
 	}
